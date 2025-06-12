@@ -17,6 +17,7 @@
               <a href="#about" class="hover:text-blue-400 transition-colors duration-300">About</a>
               <a href="#skills" class="hover:text-blue-400 transition-colors duration-300">Skills</a>
               <NuxtLink to="/projects" class="hover:text-blue-400 transition-colors duration-300">Projects</NuxtLink>
+              <NuxtLink to="/chat" class="hover:text-blue-400 transition-colors duration-300">Chat</NuxtLink>
               <a href="#contact" class="hover:text-blue-400 transition-colors duration-300">Contact</a>
             </div>
           </div>
@@ -35,6 +36,7 @@
           <a href="#about" @click="closeMobileMenu" class="block px-3 py-2 hover:text-blue-400 transition-colors duration-300">About</a>
           <a href="#skills" @click="closeMobileMenu" class="block px-3 py-2 hover:text-blue-400 transition-colors duration-300">Skills</a>
           <NuxtLink to="/projects" @click="closeMobileMenu" class="block px-3 py-2 hover:text-blue-400 transition-colors duration-300">Projects</NuxtLink>
+          <NuxtLink to="/chat" @click="closeMobileMenu" class="block px-3 py-2 hover:text-blue-400 transition-colors duration-300">Chat</NuxtLink>
           <a href="#contact" @click="closeMobileMenu" class="block px-3 py-2 hover:text-blue-400 transition-colors duration-300">Contact</a>
         </div>
       </div>

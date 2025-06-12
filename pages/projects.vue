@@ -15,6 +15,7 @@
               <NuxtLink to="/#about" class="hover:text-blue-400 transition-colors duration-300">About</NuxtLink>
               <NuxtLink to="/#skills" class="hover:text-blue-400 transition-colors duration-300">Skills</NuxtLink>
               <NuxtLink to="/projects" class="text-blue-400 font-medium">Projects</NuxtLink>
+              <NuxtLink to="/chat" class="hover:text-blue-400 transition-colors duration-300">Chat</NuxtLink>
               <NuxtLink to="/#contact" class="hover:text-blue-400 transition-colors duration-300">Contact</NuxtLink>
             </div>
           </div>
@@ -33,6 +34,7 @@
           <NuxtLink to="/#about" @click="closeMobileMenu" class="block px-3 py-2 hover:text-blue-400 transition-colors duration-300">About</NuxtLink>
           <NuxtLink to="/#skills" @click="closeMobileMenu" class="block px-3 py-2 hover:text-blue-400 transition-colors duration-300">Skills</NuxtLink>
           <NuxtLink to="/projects" @click="closeMobileMenu" class="block px-3 py-2 text-blue-400 font-medium">Projects</NuxtLink>
+          <NuxtLink to="/chat" @click="closeMobileMenu" class="block px-3 py-2 hover:text-blue-400 transition-colors duration-300">Chat</NuxtLink>
           <NuxtLink to="/#contact" @click="closeMobileMenu" class="block px-3 py-2 hover:text-blue-400 transition-colors duration-300">Contact</NuxtLink>
         </div>
       </div>
